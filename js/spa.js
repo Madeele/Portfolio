@@ -42,3 +42,10 @@ function setActiveTab(pageId) {
     }
   }
 }
+
+function closeNav() {
+  document.querySelector(".nav_opened").style.right = "-1000px";
+  if (window.innerWidth > 400) {
+      document.querySelector(".nav_opened").style.right = "0px";
+  }
+};

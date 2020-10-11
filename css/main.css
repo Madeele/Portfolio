@@ -302,7 +302,7 @@ margin-top: 40px;
 .interests_grid {
     width: 100%;
     height: auto;
-    margin: auto;
+    margin: 20px auto;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -576,7 +576,13 @@ margin-top: 40px;
     text-decoration: none;
     color: #60628a;
     font-size: 20px;
+    text-align: center;
     margin-bottom: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
 }
 
 .details_category {
@@ -915,7 +921,7 @@ margin-top: 40px;
 
     .details_text {
         align-self: center;
-        width: 80%;
+        width: 60%;
         margin-top: 45px;
         font-size: 17px;
     }
@@ -963,7 +969,7 @@ margin-top: 40px;
     .problem {
         font-size: 17px;
         align-self: center;
-        width: 80%;
+        width: 60%;
         font-weight: 400;
         background-color: #F5F5F5;
         padding: 40px;
